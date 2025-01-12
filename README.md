@@ -14,10 +14,10 @@
 
 ### Exigences :
 - #### Application Python :
-- Un PC Windows.
-- Toutes les extensions et modules nécessaires sont spécifiés dans le fichier 'requirements.txt'.
+  - Un PC Windows.
+  - Toutes les extensions et modules nécessaires sont spécifiés dans le fichier 'requirements.txt'.
 - #### Calculatrice Web :
-- N'importe quelle version de Chrome.
+  - N'importe quelle version de Chrome.
 
 ### Installation :
 1. Téléchargez les dossiers.
