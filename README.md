@@ -20,7 +20,8 @@
   - N'importe quelle version de Chrome.
 
 ### Installation :
-1. Téléchargez les dossiers.
-2. Ouvrez 'Calculatrice' dans calculatricePython pour la version Python.
-3. Ouvrez 'CalculatriceWeb' dans calculatriceWebSite pour la version HTML/CSS/JS.
-4. Ne déplacez rien de son dossier respectif.
+1. Téléchargez le dossiers ZIP.
+2. UnZIP le dossiers.
+3. Ouvrez 'Calculatrice' dans calculatricePython pour la version Python.
+4. Ouvrez 'CalculatriceWeb' dans calculatriceWebSite pour la version HTML/CSS/JS.
+5. Ne déplacez rien de son dossier respectif.
