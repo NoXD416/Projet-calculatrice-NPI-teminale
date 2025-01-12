@@ -1,0 +1,22 @@
+#La grand majoriter de ces "requirements" sont deja pre-installer avec python
+
+altgraph==0.17.4
+blinker==1.7.0
+click==8.1.7
+colorama==0.4.6
+Flask==3.0.2
+itsdangerous==2.1.2
+Jinja2==3.1.3
+MarkupSafe==2.1.5
+packaging==24.2
+pefile==2023.2.7
+pillow==10.2.0
+pygame==2.5.2
+PyGetWindow==0.0.9
+pyglet==2.0.10
+pyinstaller==6.11.1
+pyinstaller-hooks-contrib==2024.11
+PyRect==0.2.0
+pywin32-ctypes==0.2.3
+Werkzeug==3.0.1
+Tkinter==8.6

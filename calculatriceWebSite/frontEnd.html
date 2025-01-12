@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <!-- Screen -->
+            <div class="prev" id="prevCalc"></div>
+            <div class="current" id="currentCalc"></div>
+        </div>
+        <div class="buttons">
+            <!-- Row 1 -->
+            <button onclick="inputNum(1)" style="position: absolute; left: 100px; top: 200px;">1</button>
+            <button onclick="inputNum(2)" style="position: absolute; left: 200px; top: 200px;">2</button>
+            <button onclick="inputNum(3)" style="position: absolute; left: 300px; top: 200px;">3</button>
+            <button class="operator" onclick="enterOperation('+')" style="position: absolute; left: 0px; top: 100px;">+</button>
+
+            <!-- Row 2 -->
+            <button onclick="inputNum(4)" style="position: absolute; left: 100px; top: 300px;">4</button>
+            <button onclick="inputNum(5)" style="position: absolute; left: 200px; top: 300px;">5</button>
+            <button onclick="inputNum(6)" style="position: absolute; left: 300px; top: 300px;">6</button>
+            <button class="operator" onclick="enterOperation('-')" style="position: absolute; left: 100px; top: 100px;">-</button>
+
+            <!-- Row 3 -->
+            <button onclick="inputNum(7)" style="position: absolute; left: 100px; top: 400px;">7</button>
+            <button onclick="inputNum(8)" style="position: absolute; left: 200px; top: 400px;">8</button>
+            <button onclick="inputNum(9)" style="position: absolute; left: 300px; top: 400px;">9</button>
+            <button class="operator" onclick="enterOperation('x')" style="position: absolute; left: 200px; top: 100px;">x</button>
+
+            <!-- Row 4 -->
+            <button class="special" onclick="addAns()" style="position: absolute; left: 0px; top: 200px;">ANS</button>
+            <button onclick="inputNum(0)" style="position: absolute; left: 0px; top: 400px;">0</button>
+            <button onclick="makeDecimal()" style="position: absolute; left: 0px; top: 300px;">.</button>
+            <button class="operator" onclick="enterOperation('/')" style="position: absolute; left: 300px; top: 100px;">/</button>
+
+            <!-- Row 5 -->
+            <button class="operator" onclick="enterOperation('^')" style="position: absolute; left: 400px; top: 100px;">^</button>
+            <button onclick="deleteLast()" style="position: absolute; left: 400px; top: 200px;">DEL</button>
+            <button onclick="calculate()" style="position: absolute; left: 400px; top: 400px;">=</button>
+            <button onclick="enterNum()" style="position: absolute; left: 400px; top: 300px;">ENTER</button>
+        </div>
+    </div>
+
+    <script src="backEnd.js"></script>
+</body>
+</html>
