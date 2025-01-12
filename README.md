@@ -1,4 +1,6 @@
-# CETTE CALCULATRICE UTILISE L'NPI (NOTATION POLONAIS INVERSEE) – ELLE NE FONCTIONNE PAS SI UTILISEE NORMALEMENT
+# Calculatrice NPI (Projet terminale 2)
+
+! CETTE CALCULATRICE UTILISE L'NPI (NOTATION POLONAIS INVERSEE) – ELLE NE FONCTIONNE PAS SI UTILISEE NORMALEMENT !
 
 ## Features :
 - Effectue des opérations arithmétiques simples : addition, soustraction, multiplication, division, exposant.
