@@ -13,14 +13,14 @@
 - En raison des limitations des nombres à virgule flottante (plus ils sont grands, moins ils sont précis), la calculatrice vous permet d'afficher jusqu'à **3 chiffres après la virgule**.
 
 ### Exigences :
-#### Application Python :
+- #### Application Python :
 - Un PC Windows.
 - Toutes les extensions et modules nécessaires sont spécifiés dans le fichier 'requirements.txt'.
-#### Calculatrice Web :
+- #### Calculatrice Web :
 - N'importe quelle version de Chrome.
 
 ### Installation :
 1. Téléchargez les dossiers.
-2. Ouvrez le dossier 'Calculatrice' pour la version Python.
-3. Ouvrez le dossier 'CalculatriceWeb' pour la version HTML/CSS/JS.
+2. Ouvrez 'Calculatrice' dans calculatricePython pour la version Python.
+3. Ouvrez 'CalculatriceWeb' dans calculatriceWebSite pour la version HTML/CSS/JS.
 4. Ne déplacez rien de son dossier respectif.
